@@ -1,7 +1,16 @@
 module.exports = {
-  extends: ["next", "turbo", "prettier"],
-  rules: {
-    "@next/next/no-html-link-for-pages": "off",
-    "react/jsx-key": "off",
+  parser: '@typescript-eslint/parser',
+  extends: ['airbnb', 'airbnb-typescript', 'prettier'],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
+    sourceType: 'module', // Allows for the use of imports
+  },
+  env: {
+    browser: true,
+    es6: true,
+    // jest: true,
   },
 };
