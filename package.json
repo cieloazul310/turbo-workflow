@@ -10,9 +10,12 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
+    "changeset": "changeset",
+    "publish-packages": "turbo run build lint && changeset version && changeset publish",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "eslint-config-custom": "workspace:*",
     "prettier": "latest",
     "turbo": "latest"
@@ -20,6 +23,5 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
   "packageManager": "pnpm@7.24.3"
 }
