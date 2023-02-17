@@ -1,5 +1,11 @@
 # @cieloazul310/tamago
 
+## 0.0.3
+
+### Patch Changes
+
+- 693c795: fix package.json
+
 ## 0.0.2
 
 ### Patch Changes
