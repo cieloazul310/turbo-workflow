@@ -1,5 +1,13 @@
 # web
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies [4404887]
+  - @cieloazul310/tamago@0.0.4
+  - @cieloazul310/awa@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes

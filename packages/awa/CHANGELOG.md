@@ -1,5 +1,11 @@
 # @cieloazul310/awa
 
+## 0.0.4
+
+### Patch Changes
+
+- 4404887: fix package.json
+
 ## 0.0.3
 
 ### Patch Changes
